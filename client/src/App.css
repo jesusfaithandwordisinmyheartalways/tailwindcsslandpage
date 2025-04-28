@@ -1,0 +1,189 @@
+
+
+
+
+
+.image-landpage {
+  background: url('./Components/Images/credit\ \ repair\ imager.png');
+  height: 510px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+/* ---------- Fade-in for top text ---------- */
+.custom-fade-in,
+.custom-credit-text,
+.custom-pre-qual {
+  animation: fadeIn 1.9s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+/* ---------- Mortgage Section ---------- */
+.custom-mortgage {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+/* When it scrolls into view */
+.animate-fadeIn {
+  animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeInMortgage {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+/* ---------- Connect Section ---------- */
+.custom-connect {
+  background: rgba(245, 245, 245, 0.106);
+  opacity: 1; /* Make visible */
+  transform: none;
+}
+
+
+.animate-slideInRightCurl {
+  animation: slideInRightCurl 1.9s ease-out forwards;
+}
+
+
+
+@keyframes slideInRightCurl {
+  0% {
+    opacity: 0;
+    transform: translateX(100vw) rotate(20deg);
+  }
+  60% {
+    transform: translateX(-30px) rotate(-5deg);
+  }
+  80% {
+    transform: translateX(15px) rotate(2deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotate(0);
+  }
+}
+
+
+
+
+/* ---------- Arrow Section ---------- */
+
+.custom-arrow {
+  opacity: 1; /* Visible */
+  transform: none;
+}
+
+.animate-slideInLeftFade {
+  animation: slideInLeftFade 1.9s ease-out forwards;
+}
+
+
+
+@keyframes slideInLeftFade {
+  0% {
+    opacity: 0;
+    transform: translateX(-100vw);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* --- NEW --- Work Section Animation */
+.animate-work .work-title {
+  animation: fadeInFast 0.7s ease-out forwards;
+}
+.animate-work .work-paragraph {
+  animation: slideInFromRight 1.5s ease-out forwards;
+}
+.animate-work .work-button {
+  animation: slideInFromLeft 1.5s ease-out forwards;
+}
+
+@keyframes fadeInFast {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+.custom-footer {
+  background: black;
+  width: 100%;
+  padding: 6em;
+  position: relative;
+  bottom: 0px;
+  display: flex;
+}
