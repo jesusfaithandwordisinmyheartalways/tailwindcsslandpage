@@ -223,7 +223,124 @@
   }
 
 
+  
 
+  .custom-mobile-section {
+    font-size: 2rem;
+    position: relative;
+    top:-71px
+  }
+
+
+  .custom-wallet{
+    position: relative;
+    top:-71px
+
+  }
+
+
+  .custom-mobile-section-two {
+    font-size: 1.3rem;
+    position: relative;
+    top:71px
+
+  }
+
+
+
+  .custom-mobile-section-three {
+    font-size: 1rem;
+    padding: 0.8em;
+    position: relative;
+    top:71px;
+    left: -90px;
+  }
+
+
+
+  .custom-icon-section {
+    width: 40px;
+  }
+
+
+  .custom-mortgage-header {
+    font-size: 0.8rem;
+  }
+
+
+  .custom-mortgage-text {
+    font-size: 0.7rem;
+  }
+
+  .custom-us-text  {
+    font-size: 1rem;
+
+  }
+
+
+  .custom-number {
+    font-size: 1rem;
+  }
+
+
+
+  .custom-arrow-section {
+    width: 50px;
+    position: relative;
+    top:0px;
+    left:15px;
+  }
+
+
+
+  .custom-online {
+    display: flex;
+    gap:3px;
+    font-size: 0.8rem;
+  }
+
+
+  .custom-online-text {
+    font-size: 0.8rem;
+    width: 90px;
+
+  }
+
+  .custom-title {
+    font-size: 1rem;
+
+  }
+
+
+
+  .custom-title-text{
+    font-size: 0.8rem;
+
+  }
+
+
+  .custom-contact-btn {
+    position: relative;
+    top:-30px;
+    padding: 0.8em;
+  }
+
+
+
+
+
+
+  .custom-footer {
+    padding: 1em;
+    
+  }
+
+
+  .custom-footer-text {
+    font-size: 0.8rem;
+  }
+
+  
 
 
 }
